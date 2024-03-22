@@ -37,8 +37,14 @@ namespace Hafta4Cars_HazirMetodlar_
             // string ifade ile birlikte çağrılan metodlar
             metin1.ToLower (); // metin1'i küçük harfe çevirir
             metin2.ToUpper(); // metin2'yi büyük harfe çevirir
-            metin2.Length; // metin2'nin karakter sayısını verir
+            // metin2.Length; // metin2'nin karakter sayısını verir
             metin2.CompareTo(metin1); // metin2 ile metin1'i karşılaştırır. Compare metoduna benzer. 1, 0, -1 döndürür.
+            // copyTo örnek:
+            char[] metin4 = new char[10];
+            metin1.CopyTo(0, metin4, 0, 5); // metin1'in 0. karakterinden itibaren 5 karakterini metin4'e kopyalar.
+            
+            
+             
 
 
              

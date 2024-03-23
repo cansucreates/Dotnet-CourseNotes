@@ -43,6 +43,39 @@ namespace Hafta4Cars_HazirMetodlar_
             char[] metin4 = new char[10];
             metin1.CopyTo(0, metin4, 0, 5); // metin1'in 0. karakterinden itibaren 5 karakterini metin4'e kopyalar.
 
+            // IndexOf: Metin içinde aranan karakterin ilk bulunduğu indeksi döndürür.
+            // LastIndexOf: Metin içinde aranan karakterin son bulunduğu indeksi döndürür.
+            // Insert: Metin içine yeni bir metin ekler.
+            // Remove: Metin içinden belirtilen indeksten itibaren belirtilen sayıda karakteri siler.
+
+            // Math sınıfı: Abs, Ceiling, Floor, Max, Min, Pow, Round, Sqrt
+            // Abs: Mutlak değer
+            // Ceiling: Üst sayıya yuvarlar
+            // Floor: Alt sayıya yuvarlar
+            // Max: İki sayıdan büyük olanı döndürür
+            // Min: İki sayıdan küçük olanı döndürür
+            // Pow: Bir sayının üssünü alır
+            // Round: Sayıyı yuvarlar
+            // Sqrt: Karekök alır
+
+
+            // Tarih/Saat işlemleri
+
+            DateTime tarih = DateTime.Now; // Şu anki tarihi ve saati alır
+            Console.WriteLine(tarih);
+            DateTime dogumTarihi = new DateTime(1990, 1, 1); // Yıl, ay, gün
+            Console.WriteLine(dogumTarihi);
+            dogumTarihi = dogumTarihi.AddYears(30); // 30 yıl ekler
+            Console.WriteLine(dogumTarihi);
+            DateTime today = DateTime.Today; // Bugünün tarihini alır
+            Console.WriteLine(today);
+            DateTime tomorrow = today.AddDays(1); // Bugünden 1 gün sonrasını alır
+
+
+
+            
+
+
 
 
 

@@ -44,6 +44,8 @@ namespace Hafta4Cars_HazirMetodlar_
             metin1.CopyTo(0, metin4, 0, 5); // metin1'in 0. karakterinden itibaren 5 karakterini metin4'e kopyalar.
 
 
+
+
             
             
              

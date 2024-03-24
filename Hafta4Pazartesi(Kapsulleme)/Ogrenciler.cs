@@ -32,7 +32,7 @@ namespace Hafta4Pazartesi
                 {
                     Console.WriteLine("TC 11 haneli olmalıdır.");
                     Console.WriteLine("TCyi yeniden giriniz: ");
-                    Tc = Convert.ToInt32(Console.ReadLine()); 
+                    tc = Convert.ToInt32(Console.ReadLine()); 
                 }
             }
         }

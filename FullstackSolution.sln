@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hafta4Salı(RecursiveMetodl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hafta4(Assignment)", "Hafta4(Assignment)\Hafta4(Assignment).csproj", "{0D72FC59-346C-4399-AA98-E5472E7555E5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hafta4(Assignment2)", "Hafta4(Assignment2)\Hafta4(Assignment2).csproj", "{82704F5C-BFDE-4690-85A5-D54DB92FDDAA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{0D72FC59-346C-4399-AA98-E5472E7555E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D72FC59-346C-4399-AA98-E5472E7555E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D72FC59-346C-4399-AA98-E5472E7555E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82704F5C-BFDE-4690-85A5-D54DB92FDDAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82704F5C-BFDE-4690-85A5-D54DB92FDDAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82704F5C-BFDE-4690-85A5-D54DB92FDDAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82704F5C-BFDE-4690-85A5-D54DB92FDDAA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
